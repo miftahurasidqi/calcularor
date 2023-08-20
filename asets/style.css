@@ -1,0 +1,50 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: 100vh;
+}
+main .center-box {
+  height: 600px;
+  max-width: 320px;
+  border-radius: 30px;
+  background: #061120;
+}
+.result {
+  font-size: 40px;
+  height: 120px;
+  color: white;
+}
+.small {
+  font-size: 25px;
+}
+.buttons {
+  padding: 16px;
+  border-radius: 30px;
+  padding: 40px 25px 60px 25px;
+}
+div button {
+  height: 55px;
+  width: 55px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 30%;
+  border: none;
+  color: white;
+  background: transparent;
+  box-shadow: 0 0 5px #747981;
+}
+.operator,
+.persent {
+  color: #05aaee;
+}
+.clear,
+.del {
+  color: red;
+  font-weight: 400;
+}
+.equals {
+  background-color: #05aaee;
+}
